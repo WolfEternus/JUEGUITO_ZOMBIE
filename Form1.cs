@@ -23,10 +23,10 @@ namespace Zombie_Top_Down_Shooter_Game
         int score;
         Random randNum = new Random();
 
-        private SoundPlayer BACKGROUND_THEME;
-        private SoundPlayer soundBullet;
-        private SoundPlayer soundReload;
-        private SoundPlayer soundSplash;
+        private SoundPlayer backgroundThemePlayer = new SoundPlayer();
+        private SoundPlayer reloadSoundPlayer = new SoundPlayer();
+        private SoundPlayer splashSoundPlayer = new SoundPlayer();
+        private SoundPlayer popSoundPlayer = new SoundPlayer();
 
         List<PictureBox> zombieList = new List<PictureBox>();
 
@@ -35,14 +35,20 @@ namespace Zombie_Top_Down_Shooter_Game
         public Form1()
         {
             InitializeComponent();
-            BACKGROUND_THEME = new SoundPlayer("C:\\Users\\Wolf\\Desktop\\Zombie Top-Down Shooter Game\\bin\\Debug\\sonidos\\BACKGROUND_THEME.wav");
-            BACKGROUND_THEME.PlayLooping();
-            RestartGame();
 
-            
-            soundBullet = new SoundPlayer("C:\\Users\\Wolf\\Desktop\\Zombie Top-Down Shooter Game\\bin\\Debug\\sonidos\\POP_SOUND.wav");
-            soundReload = new SoundPlayer("C:\\Users\\Wolf\\Desktop\\Zombie Top-Down Shooter Game\\bin\\Debug\\sonidos\\RELOAD_SOUND.wav");
-            soundSplash = new SoundPlayer("C:\\Users\\Wolf\\Desktop\\Zombie Top-Down Shooter Game\\bin\\Debug\\sonidos\\SPLASH_SOUND.wav");
+            backgroundThemePlayer.SoundLocation = "C:\\Users\\Wolf\\Desktop\\Zombie Top-Down Shooter Game\\bin\\Debug\\sonidos\\BACKGROUND_THEME.wav";
+            reloadSoundPlayer.SoundLocation = "C:\\Users\\Wolf\\Desktop\\Zombie Top-Down Shooter Game\\bin\\Debug\\sonidos\\RELOAD_SOUND.wav";
+            splashSoundPlayer.SoundLocation = "C:\\Users\\Wolf\\Desktop\\Zombie Top-Down Shooter Game\\bin\\Debug\\sonidos\\SPLASH_SOUND.wav";
+            popSoundPlayer.SoundLocation = "C:\\Users\\Wolf\\Desktop\\Zombie Top-Down Shooter Game\\bin\\Debug\\sonidos\\POP_SOUND.wav";
+
+            backgroundThemePlayer.Load();
+            reloadSoundPlayer.Load();
+            splashSoundPlayer.Load();
+            popSoundPlayer.Load();
+
+            backgroundThemePlayer.PlayLooping();
+
+            RestartGame();
         }
 
         private void MainTimeEvent(object sender, EventArgs e)
@@ -89,7 +95,7 @@ namespace Zombie_Top_Down_Shooter_Game
                         ((PictureBox)x).Dispose();
                         ammo += 5;
 
-                        soundReload.Play();
+                        reloadSoundPlayer.Play();
                     }
                 }
 
@@ -135,7 +141,7 @@ namespace Zombie_Top_Down_Shooter_Game
                             ((PictureBox)j).Dispose();
                             this.Controls.Remove(x);
                             ((PictureBox)x).Dispose();
-                            soundSplash.Play();
+                            splashSoundPlayer.Play();
                             zombieList.Remove(((PictureBox)x));
                             MakeZombies();
                         }
@@ -237,7 +243,7 @@ namespace Zombie_Top_Down_Shooter_Game
                 shootBullet.bulletTop = player.Top + (player.Width / 2);
                 shootBullet.MakeBullet(this);
 
-                soundBullet.Play();
+                popSoundPlayer.Play();
             }
 
         }
