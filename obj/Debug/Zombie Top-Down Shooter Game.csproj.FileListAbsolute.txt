@@ -1,0 +1,21 @@
+C:\Users\Andrew\source\repos\Zombie Top-Down Shooter Game\bin\Debug\Zombie Top-Down Shooter Game.exe.config
+C:\Users\Andrew\source\repos\Zombie Top-Down Shooter Game\bin\Debug\Zombie Top-Down Shooter Game.exe
+C:\Users\Andrew\source\repos\Zombie Top-Down Shooter Game\bin\Debug\Zombie Top-Down Shooter Game.pdb
+C:\Users\Andrew\source\repos\Zombie Top-Down Shooter Game\obj\Debug\Zombie Top-Down Shooter Game.csproj.AssemblyReference.cache
+C:\Users\Andrew\source\repos\Zombie Top-Down Shooter Game\obj\Debug\Zombie Top-Down Shooter Game.csproj.SuggestedBindingRedirects.cache
+C:\Users\Andrew\source\repos\Zombie Top-Down Shooter Game\obj\Debug\Zombie_Top_Down_Shooter_Game.Form1.resources
+C:\Users\Andrew\source\repos\Zombie Top-Down Shooter Game\obj\Debug\Zombie_Top_Down_Shooter_Game.Properties.Resources.resources
+C:\Users\Andrew\source\repos\Zombie Top-Down Shooter Game\obj\Debug\Zombie Top-Down Shooter Game.csproj.GenerateResource.cache
+C:\Users\Andrew\source\repos\Zombie Top-Down Shooter Game\obj\Debug\Zombie Top-Down Shooter Game.csproj.CoreCompileInputs.cache
+C:\Users\Andrew\source\repos\Zombie Top-Down Shooter Game\obj\Debug\Zombie Top-Down Shooter Game.exe
+C:\Users\Andrew\source\repos\Zombie Top-Down Shooter Game\obj\Debug\Zombie Top-Down Shooter Game.pdb
+C:\Users\Wolf\Desktop\Zombie Top-Down Shooter Game\bin\Debug\Zombie Top-Down Shooter Game.exe.config
+C:\Users\Wolf\Desktop\Zombie Top-Down Shooter Game\bin\Debug\Zombie Top-Down Shooter Game.exe
+C:\Users\Wolf\Desktop\Zombie Top-Down Shooter Game\bin\Debug\Zombie Top-Down Shooter Game.pdb
+C:\Users\Wolf\Desktop\Zombie Top-Down Shooter Game\obj\Debug\Zombie Top-Down Shooter Game.csproj.AssemblyReference.cache
+C:\Users\Wolf\Desktop\Zombie Top-Down Shooter Game\obj\Debug\Zombie_Top_Down_Shooter_Game.Form1.resources
+C:\Users\Wolf\Desktop\Zombie Top-Down Shooter Game\obj\Debug\Zombie_Top_Down_Shooter_Game.Properties.Resources.resources
+C:\Users\Wolf\Desktop\Zombie Top-Down Shooter Game\obj\Debug\Zombie Top-Down Shooter Game.csproj.GenerateResource.cache
+C:\Users\Wolf\Desktop\Zombie Top-Down Shooter Game\obj\Debug\Zombie Top-Down Shooter Game.csproj.CoreCompileInputs.cache
+C:\Users\Wolf\Desktop\Zombie Top-Down Shooter Game\obj\Debug\Zombie Top-Down Shooter Game.exe
+C:\Users\Wolf\Desktop\Zombie Top-Down Shooter Game\obj\Debug\Zombie Top-Down Shooter Game.pdb
